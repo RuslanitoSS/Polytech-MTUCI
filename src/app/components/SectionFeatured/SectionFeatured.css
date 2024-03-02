@@ -1,0 +1,28 @@
+.featued--items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+.main--featued {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main--featued h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+}
+.featured--moreBtn {
+    margin-top: 2.5rem;
+    font-weight: 500;
+    color:white;
+    background-color: black;
+    padding: 0.75rem 6rem;
+    cursor: pointer
+}

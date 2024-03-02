@@ -1,0 +1,10 @@
+.header-middle--left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+.header-middle--left a:first-child {
+    border-bottom: 2px solid black ;
+    /* ну я хз как будет в реале. а пока так */
+}

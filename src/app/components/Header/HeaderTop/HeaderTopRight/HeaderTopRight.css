@@ -1,0 +1,10 @@
+.header-top--right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.header-top--right span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

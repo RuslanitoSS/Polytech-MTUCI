@@ -1,0 +1,19 @@
+.header-top--left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.left--region {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.left--region a span {
+  margin: 0px 4px;
+}
+.left--region a {
+  display: flex;
+  align-items: center;
+}

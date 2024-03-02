@@ -1,0 +1,11 @@
+.main--brands {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.main--brands img {
+    height: auto;
+}

@@ -1,0 +1,111 @@
+.item-card {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 0.2s;
+    font-weight: 500;
+
+}
+
+.item-card:hover {
+    box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+}
+
+.item--unfavourited,
+.item--favourited {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 12212342px;
+}
+
+.item--unfavourited svg,
+.item--favourited svg {
+    margin-bottom: 1.2px;
+}
+
+.item--favourited {
+    background-color: black;
+
+}
+
+.item--unfavourited svg path {
+    stroke: black;
+    fill: white;
+
+}
+
+.item--unfavourited {
+    background-color: white;
+    border: solid 1px #F2F2F2;
+}
+
+.item-card--top {
+    flex: 0 0 240px;
+    position: relative;
+    overflow: hidden;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-card--top img {
+    padding:0.75rem 0;
+}
+.top--discount {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    padding: 2px 16px;
+    background-color: #EB5757;
+    color: #F2F2F2;
+}
+
+.item-card--bot {
+    flex: 1 0 auto;
+}
+
+.item--name {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    display: block;
+}
+
+.item--sex {
+    margin-right: 4px;
+}
+
+.item--sex,
+.item--type {
+    color: #828B8D;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.item--prices {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.item--currencyType {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.prices--discounted {
+    text-decoration: line-through;
+}
+
+.item--dicountedPrice {
+    color: #EB5757;
+}

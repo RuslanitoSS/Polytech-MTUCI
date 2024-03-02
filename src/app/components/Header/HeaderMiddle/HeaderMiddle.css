@@ -1,0 +1,12 @@
+.header-middle {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    padding: 1rem 0.4rem;
+    font-weight: 600;
+}
+.header-middle--logo {
+    font-size: 32px;
+    line-height: 40px;
+}
