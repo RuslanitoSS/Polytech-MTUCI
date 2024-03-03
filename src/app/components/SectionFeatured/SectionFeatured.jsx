@@ -1,10 +1,10 @@
 import './SectionFeatured.css';
-import { featuredData } from '@/app/data';
 import ItemCard from '../ItemCard/ItemCard';
+/* import { featuredData } from '@/app/data'; */
 
-const SectionFeatured = () => {
-
-    const featuedList = featuredData.map(item =>
+const SectionFeatured = (itemsData) => {
+    
+    const featuedList = itemsData['itemsData' ].map(item =>
         <li key={item.id}>
             <ItemCard
                 itemName={item.itemName}

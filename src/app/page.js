@@ -5,7 +5,8 @@ import Header from "./components/Header/Header";
 import SectionBrands from "./components/SectionBrands/SectionBrands";
 import SectionPromo from "./components/SectionPromo/SectionPromo";
 import SectionFeatured from "./components/SectionFeatured/SectionFeatured";
-//Можно ли import { promoData } from "../../data.js"; и через props скинуть массив в SctionPromo?
+import { promoData } from "./data.js"
+import { featuredData  } from "./data.js"
 
 export default function page() {
   return (
@@ -14,8 +15,8 @@ export default function page() {
       <main>
         {/* слайдер */}
         <SectionBrands />
-        <SectionPromo />
-        <SectionFeatured />
+        <SectionPromo itemsData={promoData}/>
+        <SectionFeatured itemsData={featuredData }/>
       </main>
     </body>
 

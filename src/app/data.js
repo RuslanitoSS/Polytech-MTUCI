@@ -16,7 +16,7 @@ export const featuredData =[{
     imgUrl: "https://www.pngmart.com/files/1/Snowboard-Transparent-Background.png",
     itemPrice: 39340,
     discount: true,
-    discountAmount: 70,
+    discountAmount: 0,
     favourited: true
 },{
     id: 1,
