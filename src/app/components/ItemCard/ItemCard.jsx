@@ -25,7 +25,7 @@ const ItemCard = ({
           -{discountAmount}%
         </span>
       </div>
-      <a className="iitem-card--bot">
+      <a className="iitem-card--bot" href="">
         <span  className="item--name">{itemName}</span>
         <span className={itemSex ? "item--sex" :"invisible"}>{itemSex}</span>
         <span className="item--type">{itemType}</span>
@@ -36,7 +36,7 @@ const ItemCard = ({
           </span>
           <span className="item--currencyType">₽</span>
           <span className={discount ? "item--dicountedPrice" : "invisible"}>
-            {itemPrice * Math.ceil((1- discountAmount/100))}
+            {Math.ceil(itemPrice * (1- discountAmount/100))}
             <span className="item--currencyType">₽</span>
           </span>
           
